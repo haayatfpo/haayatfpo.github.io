@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High-Quality Agri Inputs | Haayat FPO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: { 600: '#16a34a', 700: '#15803d', 800: '#166534' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card { background: rgba(255,255,255,0.92); backdrop-filter: blur(12px); border: 1px solid rgba(220,252,231,0.8); }
+        .gallery-btn { cursor: pointer; }
+        .gallery-btn:hover .gallery-img { opacity: 0.92; }
+        .gallery-btn:focus { outline: 2px solid #15803d; outline-offset: 2px; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased min-h-screen flex flex-col">
+    <header class="sticky top-0 z-50 glass-card shadow-sm">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="../haayat_fpo_landing_page (1).html" class="flex items-center gap-2 group">
+                    <img src="../hayat logo.png" alt="Haayat FPO logo" class="w-9 h-9 object-contain" />
+                    <span class="font-black text-slate-900 group-hover:text-primary-700 transition-colors">HAAYAT FPO</span>
+                </a>
+                <a href="../haayat_fpo_landing_page (1).html#features" class="text-sm font-semibold text-slate-600 hover:text-primary-700 transition-colors">← All Services</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section class="py-10 md:py-14">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <nav class="text-sm text-slate-500 mb-6">
+                    <a href="../haayat_fpo_landing_page (1).html" class="hover:text-primary-700">Home</a>
+                    <span class="mx-2">/</span>
+                    <a href="../haayat_fpo_landing_page (1).html#features" class="hover:text-primary-700">Services</a>
+                    <span class="mx-2">/</span>
+                    <span class="text-slate-800 font-medium">High-Quality Agri Inputs</span>
+                </nav>
+
+                <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider border bg-emerald-100 text-emerald-800 border-emerald-200 mb-4">Haayat FPO Service</span>
+                <h1 class="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight mb-4">High-Quality Agri Inputs</h1>
+                <p class="text-lg text-slate-600 font-medium leading-relaxed mb-8">Direct access to authentic high-germination seeds, organic fertilizers, micro-nutrients, and crop protection products at discounted member prices.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-2">
+                    <button type="button" class="gallery-btn sm:col-span-2 rounded-2xl border border-emerald-200 bg-white p-3 shadow-sm hover:shadow-md transition-shadow w-full" onclick="openLightbox('../1.jpeg')" aria-label="View full size image">
+                        <img src="../1.jpeg" alt="High-Quality Agri Inputs at Haayat FPO" class="gallery-img w-full h-auto max-h-[28rem] object-contain mx-auto rounded-lg" />
+                    </button>
+                    <button type="button" class="gallery-btn rounded-xl border border-emerald-200 bg-white p-2 shadow-sm hover:shadow-md transition-shadow w-full" onclick="openLightbox('../1.b.jpeg')" aria-label="View full size image">
+                        <img src="../1.b.jpeg" alt="Agri inputs and seeds at Haayat FPO hub" class="gallery-img w-full h-auto max-h-64 object-contain mx-auto rounded-lg" />
+                    </button>
+                    <button type="button" class="gallery-btn rounded-xl border border-emerald-200 bg-white p-2 shadow-sm hover:shadow-md transition-shadow w-full" onclick="openLightbox('../1.c.jpeg')" aria-label="View full size image">
+                        <img src="../1.c.jpeg" alt="Certified fertilizers and crop inputs" class="gallery-img w-full h-auto max-h-64 object-contain mx-auto rounded-lg" />
+                    </button>
+                </div>
+                <p class="text-xs text-slate-500 mb-8 text-center">Tap any photo to view full size</p>
+
+                <div class="rounded-2xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm mb-8">
+                    <h2 class="text-xl font-bold text-slate-900 mb-3">Overview</h2>
+                    <p class="text-slate-600 leading-relaxed">Haayat FPO aggregates demand from 700+ member farmers across Sehore district to procure certified agricultural inputs in bulk. By cutting out unnecessary middlemen, members receive genuine products at prices significantly lower than local retail — with quality verified at our Bhairunda hub before dispatch.</p>
+                    <p class="text-sm text-slate-500 mt-4 font-medium">Serving farmers across <strong class="text-slate-700">Sehore district</strong> from our hub at <strong class="text-slate-700">Bhairunda (Nasrullaganj)</strong> — Village Nehrugaon, Post Rithwar, Pin 466331.</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-6 mb-8">
+                    <div class="rounded-2xl border p-6 sm:p-7 border-emerald-200 bg-emerald-50/50">
+                        <h2 class="text-lg font-bold text-slate-900 mb-4">What We Offer</h2>
+                        <ul class="space-y-3 text-sm text-slate-700 font-medium">
+                            <li class="flex items-start gap-3"><span class="mt-2 w-2 h-2 rounded-full bg-primary-600 shrink-0"></span><span>Certified seeds for soybean, wheat, chana, and seasonal crops</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-2 w-2 h-2 rounded-full bg-primary-600 shrink-0"></span><span>Organic and bio-fertilizers for long-term soil health</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-2 w-2 h-2 rounded-full bg-primary-600 shrink-0"></span><span>Micro-nutrients, crop protection, and plant growth regulators</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-2 w-2 h-2 rounded-full bg-primary-600 shrink-0"></span><span>Bulk group purchasing — members save up to 18% on input costs</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-2 w-2 h-2 rounded-full bg-primary-600 shrink-0"></span><span>100% genuine products sourced from authorized distributors</span></li>
+                        </ul>
+                    </div>
+                    <div class="rounded-2xl border p-6 sm:p-7 border-emerald-200 bg-emerald-50/50">
+                        <h2 class="text-lg font-bold text-slate-900 mb-4">Member Benefits</h2>
+                        <ul class="space-y-3 text-sm text-slate-700 font-medium">
+                            <li class="flex items-start gap-3"><span class="mt-2 w-2 h-2 rounded-full bg-primary-600 shrink-0"></span><span>Lower input cost per acre for small and marginal farmers</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-2 w-2 h-2 rounded-full bg-primary-600 shrink-0"></span><span>Timely availability before sowing season at the FPO hub</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-2 w-2 h-2 rounded-full bg-primary-600 shrink-0"></span><span>Product authenticity guaranteed — no spurious or adulterated stock</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-2 w-2 h-2 rounded-full bg-primary-600 shrink-0"></span><span>Advisory support on correct dosage and application timing</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm mb-8">
+                    <h2 class="text-xl font-bold text-slate-900 mb-6">How It Works</h2>
+                    <div class="space-y-5">
+                        
+                        <div class="flex gap-4">
+                            <div class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-800 border-emerald-200 border flex items-center justify-center text-sm font-black shrink-0">1</div>
+                            <p class="text-slate-700 font-medium pt-1">Become a Haayat FPO member or contact the hub</p>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-800 border-emerald-200 border flex items-center justify-center text-sm font-black shrink-0">2</div>
+                            <p class="text-slate-700 font-medium pt-1">Check seasonal input catalog at Bhairunda (Nasrullaganj)</p>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-800 border-emerald-200 border flex items-center justify-center text-sm font-black shrink-0">3</div>
+                            <p class="text-slate-700 font-medium pt-1">Place your order — individual or group booking</p>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-800 border-emerald-200 border flex items-center justify-center text-sm font-black shrink-0">4</div>
+                            <p class="text-slate-700 font-medium pt-1">Collect from the FPO hub or arrange village-level delivery</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl border border-emerald-200 bg-emerald-50/50 p-6 sm:p-8 mb-8">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                        <div>
+                            <p class="text-xs font-bold uppercase tracking-widest text-primary-700 mb-1">Haayat FPO Motto</p>
+                            <p class="text-2xl font-black text-slate-900">"आत्मनिर्भर किसान"</p>
+                            <p class="text-sm text-slate-600 mt-1">Self-reliant farmers · 700+ registered members · Sehore, M.P.</p>
+                        </div>
+                        <div class="text-left sm:text-right text-sm text-slate-600">
+                            <p class="font-bold text-slate-800">Haayat Farmer Producer Co. Ltd.</p>
+                            <a href="mailto:haayat.fpo@gmail.com" class="text-primary-700 font-semibold hover:underline">haayat.fpo@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl bg-slate-900 text-white p-6 sm:p-8 mb-6">
+                    <h2 class="text-xl font-bold mb-2">Interested in this service?</h2>
+                    <p class="text-slate-300 text-sm mb-6">Contact Haayat FPO to register as a member, book this service, or get more details from our team at the Bhairunda hub.</p>
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <a href="../haayat_fpo_landing_page (1).html#contact" class="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-white rounded-xl shadow-md transition-all bg-primary-700 hover:bg-primary-800 border-primary-600 border">
+                            Send Inquiry
+                        </a>
+                        <a href="../haayat_fpo_landing_page (1).html#pricing" class="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-slate-900 bg-white rounded-xl hover:bg-slate-100 transition-all">
+                            View Membership Plans
+                        </a>
+                    </div>
+                </div>
+
+                <p class="text-sm text-slate-500">Related services: <a href="seed-production.html" class="text-sm font-semibold  hover:underline text-primary-700">Seed Production</a><span class="text-slate-300 mx-2">·</span><a href="organic-inputs.html" class="text-sm font-semibold  hover:underline text-primary-700">Organic Inputs</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-6 border-t border-slate-200 text-center text-sm text-slate-500">
+        <p>&copy; 2026 Haayat Farmer Producer Company Limited · <a href="../haayat_fpo_landing_page (1).html" class="hover:text-primary-700">Back to Home</a></p>
+    </footer>
+
+    <div id="lightbox" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/90 p-4 sm:p-8" role="dialog" aria-modal="true" aria-label="Full size image" onclick="closeLightbox()">
+        <button type="button" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/10 text-white text-2xl font-bold hover:bg-white/20 transition-colors" onclick="closeLightbox()" aria-label="Close">&times;</button>
+        <img id="lightbox-img" src="" alt="Full size view" class="max-w-full max-h-[90vh] w-auto h-auto object-contain rounded-lg shadow-2xl" onclick="event.stopPropagation()" />
+    </div>
+    <script>
+        function openLightbox(src) {
+            const lb = document.getElementById('lightbox');
+            document.getElementById('lightbox-img').src = src;
+            lb.classList.remove('hidden');
+            lb.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeLightbox() {
+            const lb = document.getElementById('lightbox');
+            lb.classList.add('hidden');
+            lb.classList.remove('flex');
+            document.getElementById('lightbox-img').src = '';
+            document.body.style.overflow = '';
+        }
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeLightbox(); });
+    </script>
+</body>
+</html>
